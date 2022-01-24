@@ -22,10 +22,6 @@ APPNAME = 'libpbd'
 VERSION = LIBPBD_VERSION
 I18N_PACKAGE = 'libpbd4'
 
-# Mandatory variables
-top = '.'
-out = 'build'
-
 path_prefix = 'libs/pbd/'
 
 libpbd_sources = [

@@ -17,10 +17,6 @@ LIBMIDIPP_LIB_VERSION = '4.1.0'
 APPNAME = 'libmidipp'
 VERSION = LIBMIDIPP_VERSION
 
-# Mandatory variables
-top = '.'
-out = 'build'
-
 path_prefix = 'libs/midi++2/'
 
 libmidi_sources = [

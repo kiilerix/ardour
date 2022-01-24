@@ -6,9 +6,6 @@ APPNAME = 'liblua'
 VERSION = "5.3.5"
 I18N_PACKAGE = 'liblua'
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

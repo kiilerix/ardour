@@ -18,10 +18,6 @@ APPNAME = 'zita-resampler'
 VERSION = ZRESAMPLER_VERSION
 I18N_PACKAGE = 'libzita-resampler'
 
-# Mandatory variables
-top = '.'
-out = 'build'
-
 zresampler_sources = [
         'resampler.cc',
         'resampler-table.cc',

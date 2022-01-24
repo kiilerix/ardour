@@ -18,9 +18,6 @@ APPNAME = 'libltc'
 VERSION = LIBLTC_VERSION
 I18N_PACKAGE = 'libltc'
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

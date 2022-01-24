@@ -18,9 +18,6 @@ APPNAME = 'zita-convolver'
 VERSION = ZCONVOLVER_VERSION
 I18N_PACKAGE = 'libzita-convolver'
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

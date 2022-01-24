@@ -4,9 +4,6 @@ import os
 
 I18N_PACKAGE = 'coreaudio-backend'
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

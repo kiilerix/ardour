@@ -12,9 +12,6 @@ VAMP_PYIN_LIB_VERSION = '0.0.0'
 APPNAME = 'libardourvamppyin'
 VERSION = '1.1'
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

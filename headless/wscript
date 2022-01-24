@@ -2,10 +2,6 @@
 import os
 import sys
 
-# Mandatory variables
-top = '.'
-out = 'build'
-
 hardour_sources = [
         'load_session.cc',
         'misc.cc',

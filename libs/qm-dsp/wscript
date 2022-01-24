@@ -14,9 +14,6 @@ QM_DSP_LIB_VERSION = '1.7.1'
 APPNAME = 'qm-dsp'
 VERSION = QM_DSP_VERSION
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

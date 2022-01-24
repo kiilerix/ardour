@@ -15,10 +15,6 @@ LIBSURFACES_LIB_VERSION = '4.1.0'
 APPNAME = 'libsurfaces'
 VERSION = LIBSURFACES_VERSION
 
-# Mandatory variables
-top = '.'
-out = 'build'
-
 children = [
         'control_protocol',
         'faderport',

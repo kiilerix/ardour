@@ -12,9 +12,6 @@ APPNAME = 'libltc'
 VERSION = LIBFLUIDSYNTH_VERSION
 I18N_PACKAGE = 'libfluidsynth'
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

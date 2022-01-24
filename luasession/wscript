@@ -3,9 +3,6 @@ import waflib.Utils as Utils
 import os
 import sys
 
-top = '.'
-out = 'build'
-
 def options(opt):
     pass
 

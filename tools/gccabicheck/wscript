@@ -2,9 +2,6 @@
 import re
 import sys
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

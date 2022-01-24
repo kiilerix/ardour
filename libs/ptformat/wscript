@@ -15,9 +15,6 @@ APPNAME = 'libptformat'
 VERSION = LIBPTFORMAT_VERSION
 I18N_PACKAGE = 'libptformat'
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass

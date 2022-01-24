@@ -19,10 +19,6 @@ APPNAME = 'canvas'
 VERSION = CANVAS_VERSION
 I18N_PACKAGE = 'libcanvas'
 
-# Mandatory variables
-top = '.'
-out = 'build'
-
 path_prefix = 'libs/canvas/'
 
 canvas_sources = [

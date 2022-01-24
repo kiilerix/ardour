@@ -17,9 +17,6 @@ AUDIOGRAPHER_LIB_VERSION = '0.0.0'
 APPNAME = 'audiographer'
 VERSION = AUDIOGRAPHER_VERSION
 
-# Mandatory variables
-top = '.'
-out = 'build'
 
 def options(opt):
     pass
