@@ -17,8 +17,6 @@ LIBMIDIPP_LIB_VERSION = '4.1.0'
 APPNAME = 'libmidipp'
 VERSION = LIBMIDIPP_VERSION
 
-path_prefix = 'libs/midi++2/'
-
 libmidi_sources = [
         'midi.cc',
         'channel.cc',

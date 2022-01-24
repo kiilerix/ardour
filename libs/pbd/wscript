@@ -22,8 +22,6 @@ APPNAME = 'libpbd'
 VERSION = LIBPBD_VERSION
 I18N_PACKAGE = 'libpbd4'
 
-path_prefix = 'libs/pbd/'
-
 libpbd_sources = [
     'basename.cc',
     'base_ui.cc',

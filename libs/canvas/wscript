@@ -19,8 +19,6 @@ APPNAME = 'canvas'
 VERSION = CANVAS_VERSION
 I18N_PACKAGE = 'libcanvas'
 
-path_prefix = 'libs/canvas/'
-
 canvas_sources = [
         'arc.cc',
         'arrow.cc',

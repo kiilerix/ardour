@@ -50,8 +50,6 @@ gtkmm2ext_sources = [
         'window_title.cc'
 ]
 
-path_prefix = 'libs/gtkmm2ext/'
-
 def options(opt):
     pass
 
