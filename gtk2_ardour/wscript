@@ -539,8 +539,6 @@ def build_color_scheme(path, prefix):
     return color_scheme
 
 def build(bld):
-
-    VERSION = "%s.%s" % (bld.env['MAJOR'], bld.env['MINOR'])
     I18N_PACKAGE = 'gtk2_ardour' + bld.env['MAJOR']
 
     # Tool to dump lua-bindings (of gtk2ardour + libs)
@@ -756,7 +754,6 @@ def build(bld):
 
     font_subst_dict = {}
     font_sizes      = {}
-    base_font       = ""
 
     # Set up font sizes
     if sys.platform == 'darwin':
