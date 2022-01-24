@@ -58,6 +58,3 @@ def build(bld):
             obj.source     = 'linux/hid.c'
             if re.search ("linux", sys.platform) != None:
                 obj.uselib = 'UDEV'
-
-def shutdown():
-    autowaf.shutdown()
