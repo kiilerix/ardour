@@ -4,6 +4,7 @@ import os
 # needed for code used from libardour
 I18N_PACKAGE = 'ardour'
 
+
 def options(opt):
     pass
 
