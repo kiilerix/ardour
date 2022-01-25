@@ -695,18 +695,18 @@ def create_ardour_test_program(bld, includes, name, target, sources):
         'LOCALEDIR="' + os.path.normpath(bld.env['LOCALEDIR']) + '"',
         ]
 
-def i18n(bld):
+def i18n_fun(bld):
     autowaf.build_i18n(bld, bld.top_dir, 'libs/ardour', I18N_PACKAGE + str(bld.env['MAJOR']), libardour_sources,
                        'Paul Davis')
 
-def i18n_pot(bld):
+def i18n_pot_fun(bld):
     autowaf.build_i18n(bld, bld.top_dir, 'libs/ardour', I18N_PACKAGE + str(bld.env['MAJOR']), libardour_sources,
                        'Paul Davis')
 
-def i18n_po(bld):
+def i18n_po_fun(bld):
     autowaf.build_i18n_po(bld, bld.top_dir, 'libs/ardour', I18N_PACKAGE + str(bld.env['MAJOR']), libardour_sources,
                        'Paul Davis')
 
-def i18n_mo(bld):
+def i18n_mo_fun(bld):
     autowaf.build_i18n_mo(bld, bld.top_dir, 'libs/ardour', I18N_PACKAGE + str(bld.env['MAJOR']), libardour_sources,
                        'Paul Davis')

@@ -96,18 +96,18 @@ def build(bld):
             bld.install_as (os.path.join(os.path.normpath(bld.env['LOCALEDIR']), lang, 'LC_MESSAGES', I18N_PACKAGE + '.mo'),
                             mo)
 
-def i18n(bld):
+def i18n_fun(bld):
     autowaf.build_i18n(bld, bld.top_dir, 'libs/gtkmm2ext', I18N_PACKAGE, gtkmm2ext_sources,
                        'Paul Davis')
 
-def i18n_pot(bld):
+def i18n_pot_fun(bld):
     autowaf.build_i18n_pot(bld, bld.top_dir, 'libs/gtkmm2ext', I18N_PACKAGE, gtkmm2ext_sources,
                        'Paul Davis')
 
-def i18n_po(bld):
+def i18n_po_fun(bld):
     autowaf.build_i18n_po(bld, bld.top_dir, 'libs/gtkmm2ext', I18N_PACKAGE, gtkmm2ext_sources,
                        'Paul Davis')
 
-def i18n_mo(bld):
+def i18n_mo_fun(bld):
     autowaf.build_i18n_mo(bld, bld.top_dir, 'libs/gtkmm2ext', I18N_PACKAGE, gtkmm2ext_sources,
                        'Paul Davis')

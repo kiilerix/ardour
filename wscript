@@ -1597,31 +1597,31 @@ def build(bld):
 
 class i18n_build_context(BuildContext):
     cmd = 'i18n'
-    fun = 'i18n'
+    fun = 'i18n_fun'
 
-def i18n(bld):
+def i18n_fun(bld):
     print(bld.env)
     bld.recurse (i18n_children)
 
 class i18n_pot_build_context(BuildContext):
     cmd = 'i18n_pot'
-    fun = 'i18n_pot'
+    fun = 'i18n_pot_fun'
 
-def i18n_pot(bld):
+def i18n_pot_fun(bld):
     bld.recurse (i18n_children)
 
 class i18n_po_build_context(BuildContext):
     cmd = 'i18n_po'
-    fun = 'i18n_po'
+    fun = 'i18n_po_fun'
 
-def i18n_po(bld):
+def i18n_po_fun(bld):
     bld.recurse (i18n_children)
 
 class i18n_mo_build_context(BuildContext):
     cmd = 'i18n_mo'
-    fun = 'i18n_mo'
+    fun = 'i18n_mo_fun'
 
-def i18n_mo(bld):
+def i18n_mo_fun(bld):
     bld.recurse (i18n_children)
 
 def tarball(bld):
