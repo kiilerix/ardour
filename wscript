@@ -15,22 +15,6 @@ from waflib.Tools.compiler_cxx import cxx_compiler
 c_compiler['darwin'] = ['gcc', 'clang' ]
 cxx_compiler['darwin'] = ['g++', 'clang++' ]
 
-class i18n(BuildContext):
-    cmd = 'i18n'
-    fun = 'i18n'
-
-class i18n_pot(BuildContext):
-    cmd = 'i18n_pot'
-    fun = 'i18n_pot'
-
-class i18n_po(BuildContext):
-    cmd = 'i18n_po'
-    fun = 'i18n_po'
-
-class i18n_mo(BuildContext):
-    cmd = 'i18n_mo'
-    fun = 'i18n_mo'
-
 compiler_flags_dictionaries= {
     'gcc' : {
         # Flags required when building a debug build
@@ -1608,15 +1592,34 @@ def build(bld):
     if bld.env['RUN_TESTS']:
         bld.add_post_fun(test)
 
+# The following custom commands need a BuildContext (with .env) instead of a
+# plain Context. The BuildContext subclasses will make that happen:
+
+class i18n_build_context(BuildContext):
+    cmd = 'i18n'
+    fun = 'i18n'
+
 def i18n(bld):
     print(bld.env)
     bld.recurse (i18n_children)
 
+class i18n_pot_build_context(BuildContext):
+    cmd = 'i18n_pot'
+    fun = 'i18n_pot'
+
 def i18n_pot(bld):
     bld.recurse (i18n_children)
 
+class i18n_po_build_context(BuildContext):
+    cmd = 'i18n_po'
+    fun = 'i18n_po'
+
 def i18n_po(bld):
     bld.recurse (i18n_children)
+
+class i18n_mo_build_context(BuildContext):
+    cmd = 'i18n_mo'
+    fun = 'i18n_mo'
 
 def i18n_mo(bld):
     bld.recurse (i18n_children)
