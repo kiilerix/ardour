@@ -11,10 +11,6 @@ LIBARDOURVAMPPLUGINS_VERSION = '0.0.0'
 # micro increment <=> no interface changes
 LIBARDOURVAMPPLUGINS_LIB_VERSION = '0.0.0'
 
-# Variables for 'waf dist'
-VERSION = LIBARDOURVAMPPLUGINS_VERSION
-
-
 def options(opt):
     pass
 

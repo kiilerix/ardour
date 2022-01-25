@@ -13,7 +13,6 @@ TEMPORAL_VERSION = "%s.%s.%s" % (MAJOR, MINOR, MICRO)
 TEMPORAL_LIB_VERSION = '0.0.0'
 
 # Variables for 'waf dist'
-VERSION = TEMPORAL_VERSION
 I18N_PACKAGE = 'libtemporal'
 
 temporal_sources = [

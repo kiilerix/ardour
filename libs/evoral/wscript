@@ -14,10 +14,6 @@ EVORAL_VERSION = '0.0.0'
 #   0.0.0 = 0,0,0
 EVORAL_LIB_VERSION = '0.0.0'
 
-# Variables for 'waf dist'
-VERSION = EVORAL_VERSION
-
-
 def options(opt):
     opt.add_option('--test', action='store_true', default=False, dest='build_tests',
                     help="Build unit tests")
