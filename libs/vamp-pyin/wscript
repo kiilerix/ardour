@@ -9,7 +9,6 @@ import os
 VAMP_PYIN_LIB_VERSION = '0.0.0'
 
 # Variables for 'waf dist'
-APPNAME = 'libardourvamppyin'
 VERSION = '1.1'
 
 

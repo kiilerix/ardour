@@ -10,7 +10,6 @@ LIBPTFORMAT_VERSION = '0.0.0'
 LIBPTFORMAT_LIB_VERSION = '0.0.0'
 
 # Variables for 'waf dist'
-APPNAME = 'libptformat'
 VERSION = LIBPTFORMAT_VERSION
 I18N_PACKAGE = 'libptformat'
 

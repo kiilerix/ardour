@@ -12,7 +12,6 @@ LIBSURFACES_VERSION = '4.1.0'
 LIBSURFACES_LIB_VERSION = '4.1.0'
 
 # Variables for 'waf dist'
-APPNAME = 'libsurfaces'
 VERSION = LIBSURFACES_VERSION
 
 children = [
