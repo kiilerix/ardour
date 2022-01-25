@@ -9,7 +9,7 @@ out = 'build'
 path_prefix = 'libs/clearlooks-newer'
 
 def options(opt):
-    autowaf.set_options(opt)
+    pass
 
 def configure(conf):
     pass

@@ -7,7 +7,7 @@ top = '.'
 out = 'build'
 
 def options(opt):
-    autowaf.set_options(opt)
+    pass
 
 def configure(conf):
     pass

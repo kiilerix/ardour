@@ -296,7 +296,7 @@ def ogg_supported():
     return re.search ('unknown format', out) is None
 
 def options(opt):
-    autowaf.set_options(opt)
+    pass
 
 def configure(conf):
     conf.load('gas')

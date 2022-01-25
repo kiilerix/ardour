@@ -57,7 +57,7 @@ out = 'build'
 path_prefix = 'libs/gtkmm2ext/'
 
 def options(opt):
-    autowaf.set_options(opt)
+    pass
 
 def configure(conf):
     autowaf.check_pkg(conf, 'gtkmm-2.4', uselib_store='GTKMM', atleast_version='2.8')
